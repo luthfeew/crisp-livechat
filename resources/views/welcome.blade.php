@@ -61,6 +61,8 @@
                 Powered by
                 <div class="crisp"></div>
                 <?php echo Request::ip(); ?>
+                <?php echo Request::getClientIp(true); ?>
+                <?php echo request()->ip(); ?>
             </div>
         </div>
     </div>
