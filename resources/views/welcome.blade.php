@@ -60,6 +60,7 @@
             <div class="title m-b-md">
                 Powered by
                 <div class="crisp"></div>
+                <?php echo Request::ip(); ?>
             </div>
         </div>
     </div>
